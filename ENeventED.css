@@ -1,0 +1,274 @@
+body {
+	height: 100%;
+	font-family: Lato;
+}
+
+p {
+	text-align: justify;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+		text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+ /*Navbar*/
+
+.navbar-default {
+	background-color: #142952;
+	border-color: #142952;
+	font-size: 17px;
+}
+
+/*navbar font color*/
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:visited,
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:visited {
+    color: #fff;
+}
+
+/*navbar underline while hovering */
+.navbar-default .navbar-nav>li>a:hover {
+    text-decoration: underline;
+}
+ /*logo*/
+.navbar-brand span {
+	border: 2px solid #e7d4ac;
+	padding: 7px 7px;
+}
+
+ /* Copied from bootsrap.com to change height of navbar to 80px*/
+ .navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 22px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+/* copied text ends here */
+
+/*================================================================================================================================================*/
+
+/* First view section */
+.section-first-view {
+	background: url(https://images.unsplash.com/photo-1495314736024-fa5e4b37b979?auto=format&fit=crop&w=752&q=80);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+.content {
+	text-align: center;
+	margin: 14% auto;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.4),
+                 0px 18px 23px rgba(0,0,0,0.4);
+}
+
+.content h1 {
+	font-weight: 700;
+	font-size: 70px;
+}
+
+.content hr {
+	width: 400px;
+}
+ .content p {
+ 	font-size: 35px;
+ 	text-align: center;
+ 	font-weight: bold;
+ 	color: white;
+ }
+
+/*================================================================================================================================================*/
+
+/*columns*/
+
+.box {
+	background: #142952;
+	color: #fff;
+	text-align: center;
+	padding: 25px 45px;
+	margin: 6px 10px;
+	margin-bottom: 80px;
+}
+
+
+/*.second-button, .second-button:hover, .second-button:visited {
+	background-color: #e0e0e0;
+	border-color: #e0e0e0;
+	border-radius: 0px;
+	font-family: Lato;
+	font-size: 16px;
+	margin-top: 35px;
+	padding: 12px 20px;
+	color: #142952;
+}*/
+
+#services-title {
+	margin: 4% auto;
+}
+
+.box h2 {
+	margin-top: 0px;
+}
+
+/*================================================================================================================================================*/
+ .about-us {
+ 	background: #e0e0e0;
+ }
+
+.about-us img {
+	max-width: 100%
+}
+
+.about-us .row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.about-us .col-lg-6 { 
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.about-us p {
+	padding: 20px 40px;
+	font-size: 20px;
+	color: #777;
+}
+
+.about-us .btn-primary, .about-us .btn-primary:hover, .about-us .btn-primary:visited {
+	margin: auto 40%;
+}
+
+.about-us h2 {
+	color: #142952;
+	margin-top: 5%;
+}
+
+
+
+/*================================================================================================================================================*/
+
+
+
+/*footer - contact us*/
+
+#form {
+	text-align: left;
+}
+
+.form-control, .form-control:focus {
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 0px;
+	box-shadow: none;
+	outline: none;
+}
+
+.footer {
+	background: white;
+}
+
+.footer ul {
+  	list-style-type: none;
+  
+}
+
+.footer li {
+	font-size: 16px;
+	text-align: left;
+	margin: 10px 30px;
+
+}
+
+.footer i {
+    margin-right: 30px;
+}
+
+.footer h2 {
+	/*margin: 30px auto;*/
+}
+
+#first-phone {
+	/*margin-top: 0px;*/
+}
+
+.footer h3 {
+	color: #142952;
+	font-size: 26px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.footer p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+
+.footer button {
+	padding: 6px 18px;
+	margin: 0px auto;
+}
+
+.before-from, .stay-in-touch, .employment {
+	margin: 30px auto;
+}
+
+.employment {
+	margin-left: 70px;
+}
+
+.footer h2 {
+	color: #142952;
+
+}
+
+.stay-in-touch span {
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.special {
+	padding-left: 66px;
+}
+
+#contact-details {
+	padding-left: 40px;
+}
+
+ .btn-primary, .btn-primary:hover,  .btn-primary:visited {
+	background-color: #142952;
+	border-color: #142952;
+	border-radius: 0px;
+	font-size: 16px;
+	margin: 10px auto;
+	padding: 12px 20px;
+	font-size: 16px;
+}
