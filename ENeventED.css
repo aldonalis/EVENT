@@ -94,7 +94,7 @@ h2 {
 }
 
 .content hr {
-	width: 400px;
+	width: 40%;
 }
  .content p {
  	font-size: 35px;
@@ -180,6 +180,7 @@ h2 {
 
 #form {
 	text-align: left;
+	margin-right: 10%;
 }
 
 .form-control, .form-control:focus {
@@ -194,28 +195,8 @@ h2 {
 	background: white;
 }
 
-.footer ul {
-  	list-style-type: none;
-  
-}
-
-.footer li {
-	font-size: 16px;
-	text-align: left;
-	margin: 10px 30px;
-
-}
-
 .footer i {
-    margin-right: 30px;
-}
-
-.footer h2 {
-	/*margin: 30px auto;*/
-}
-
-#first-phone {
-	/*margin-top: 0px;*/
+    margin-right: 3%;
 }
 
 .footer h3 {
@@ -228,39 +209,18 @@ h2 {
 .footer p {
 	font-size: 16px;
 	text-align: justify;
+	margin-bottom: 0;
 }
-
-
 
 .footer button {
 	padding: 6px 18px;
 	margin: 0px auto;
 }
 
-.before-from, .stay-in-touch, .employment {
-	margin: 30px auto;
-}
-
-.employment {
-	margin-left: 70px;
-}
-
-.footer h2 {
-	color: #142952;
-
-}
 
 .stay-in-touch span {
 	font-weight: bold;
 	padding-right: 10px;
-}
-
-.special {
-	padding-left: 66px;
-}
-
-#contact-details {
-	padding-left: 40px;
 }
 
  .btn-primary, .btn-primary:hover,  .btn-primary:visited {
